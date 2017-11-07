@@ -1,0 +1,79 @@
+/**
+ * ===============================================================
+ * Guide.
+ * ===============================================================
+ */
+
+/*
+.grid-x {
+  border:1px solid red;
+}
+
+.cell {
+  border: 1px solid blue;
+}
+
+.medium-6 {
+  border: 1px solid green;
+}
+
+.expanded {
+  border: 1px solid black;
+}
+
+.row {
+  border: 1px solid black;
+}
+*/
+
+/**
+ * ===============================================================
+ * HTML/ Global
+ * ===============================================================
+ */
+html, body
+{
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+/**
+ * ===============================================================
+ * Header
+ * ===============================================================
+ */
+.logo {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  max-height: 289px;
+}
+
+.menu-header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+/**
+ * ===============================================================
+ * Article
+ * ===============================================================
+ */
+.row-plot {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/**
+ * ===============================================================
+ * Footer
+ * ===============================================================
+ */
+.content-footer {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+}

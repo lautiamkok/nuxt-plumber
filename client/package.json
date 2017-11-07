@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-koa",
+  "version": "1.0.0",
+  "description": "Creating a Nuxt application with Koa",
+  "main": "server/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/lautiamkok",
+  "author": {
+    "name": "lau tiam kok",
+    "email": "contact@lauthiamkok.net",
+    "url": "https://github.com/lautiamkok"
+  },
+  "repository": "https://github.com/lautiamkok/nuxt-koa",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "foundation-icon-fonts": "^0.1.1",
+    "foundation-sites": "^6.4.3",
+    "jquery": "^3.1.1",
+    "jquery-ui-bundle": "^1.12.1",
+    "nuxt": "^1.0.0-rc3",
+    "vue-no-ssr": "^0.2.0"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "keywords": [
+    "Nuxt"
+  ],
+  "license": "MIT"
+}
