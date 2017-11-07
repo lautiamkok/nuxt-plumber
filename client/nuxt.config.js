@@ -40,7 +40,7 @@ module.exports = {
       // 'axios',
       // '~/plugins/axios.js',
 
-      // Global js (a hack) - but it should have a better way!
+      // // Global js (a hack) - but it should have a better way!
       '~/assets/js/main.js'
     ],
     plugins: [
@@ -55,6 +55,9 @@ module.exports = {
   // https://nuxtjs.org/guide/plugins/
   plugins: [
     // '~/plugins/axios.js',
+
+    // Global js.
+    // '~/assets/js/main.js',
 
     // Include bootstrap/ foundation-sites js on startup.
     // No need of this if you use mounted method.
@@ -72,9 +75,5 @@ module.exports = {
 
     // include jquery-ui css
     'jquery-ui-bundle/jquery-ui.min.css',
-  ],
-  /*
-  ** Global JS - does not work
-  */
-  js: ['~/assets/js/main.js']
+  ]
 }
