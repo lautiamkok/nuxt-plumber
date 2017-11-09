@@ -3,7 +3,9 @@ Nuxt + Plumber
 
 A basic sample Nuxt application with Plumber.
 
-Plumber handles the controller and the model as an API. Nuxt handles the view and calls the API, e.g http://127.0.0.1:3000/ (from Nuxt) will call http://127.0.0.1:8000/api (from Plumber).
+Plumber handles the backend as an API. Nuxt handles the view and calls the API, e.g http://127.0.0.1:3000/ (from Nuxt) will call http://127.0.0.1:8000/api (from Plumber).
+
+Read the post [here](https://www.codementor.io/lautiamkok/creating-a-r-web-application-with-nuxt-and-plumber-dnsjkq4wq) about this repository.
 
 Quick start
 =============
